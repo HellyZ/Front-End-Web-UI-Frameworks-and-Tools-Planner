@@ -1,0 +1,21 @@
+.eventItem {
+    margin: 20px 0;
+    padding: 20px;
+    border: var(--border);
+    border-radius: var(--border-radius);
+}
+
+.eventItemBody {
+    margin-bottom: 20px;
+}
+
+.eventTitle {
+    font-weight: 400;
+    margin: 0 0 10px 0;
+}
+
+.eventDescription {
+    margin: 0;
+    font-size: 14px;
+    color: var(--secondary-text-color);
+}

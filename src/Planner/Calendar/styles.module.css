@@ -1,0 +1,24 @@
+@media (min-width: 600px) {
+    .calendarHeader {
+        display: flex;
+        justify-content: space-between;
+        vertical-align: middle;
+    }
+}
+
+.calendar {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: var(--border);
+    border-radius: var(--border-radius);
+}
+
+@media (min-width: 860px) {
+    .calendar {
+        margin-bottom: 0;
+        grid-column: 1 / 9;
+        height: max-content;
+        position: sticky;
+        top: 20px;
+    }
+}

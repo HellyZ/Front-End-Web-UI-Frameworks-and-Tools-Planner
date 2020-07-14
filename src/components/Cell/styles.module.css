@@ -1,0 +1,12 @@
+.cell {
+    border-top: var(--border);
+    padding: 20px 0;
+    text-align: center;
+}
+
+@media (min-width: 600px) {
+    .cell {
+        padding: 15px;
+        text-align: right;
+    }
+}

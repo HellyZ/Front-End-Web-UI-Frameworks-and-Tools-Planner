@@ -1,0 +1,41 @@
+.form {
+    padding: 20px;
+    width: 100%;
+    border: var(--border);
+    border-radius: var(--border-radius);
+    font-family: inherit;
+}
+
+.form:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.title,
+.description {
+    padding: 10px;
+    width: 100%;
+    color: inherit;
+    background-color: inherit;
+    border-radius: var(--border-radius);
+    border: var(--border);
+    outline: none;
+    font-family: inherit;
+    font-size: 16px;
+    -webkit-appearance: none;
+}
+
+.title:focus,
+.description:focus {
+    border: var(--border-style) var(--color-blue-50);
+}
+
+.title {
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+.description {
+    margin-bottom: 20px;
+    height: 100px;
+    resize: none;
+}

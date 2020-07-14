@@ -1,0 +1,19 @@
+.eventsHeader {
+    border-bottom: var(--border);
+}
+
+.eventsHeader h2 {
+    padding-bottom: 20px;
+}
+
+.events {
+    padding: 20px;
+    border: var(--border);
+    border-radius: var(--border-radius);
+}
+
+@media (min-width: 860px) {
+    .events {
+        grid-column: 9 / -1;
+    }
+}

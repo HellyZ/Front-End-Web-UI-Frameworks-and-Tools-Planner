@@ -1,0 +1,52 @@
+.day {
+    position: relative;
+}
+
+.day:hover span::after {
+    background-color: var(--day-span-bg);
+}
+
+.span {
+    position: relative;
+    color: inherit;
+    z-index: 10;
+    height: fit-content;
+}
+
+.span::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 30px;
+    width: 30px;
+    z-index: -10;
+    border-radius: 50%;
+}
+
+.isSelectedDate::after {
+    background-color: var(--day-span-bg);
+}
+
+.isToday::after {
+    background-color: var(--today-span-bg);
+}
+
+.isDateWithEvents {
+    background-color: var(--date-with-events-bg);
+    border-top: var(--border-style) var(--date-with-events-border-color);
+}
+
+.isSelectedDate,
+.isToday,
+.day:hover span {
+    color: var(--color-black-05);
+}
+
+@media (min-width: 600px) {
+    .day {
+        height: 100px;
+        cursor: pointer;
+    }
+}

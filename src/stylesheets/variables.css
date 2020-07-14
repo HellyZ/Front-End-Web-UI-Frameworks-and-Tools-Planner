@@ -1,0 +1,36 @@
+:root {
+    --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+
+    --color-white: #fffffe;
+    --color-black-05: #0d0d0d; /* Text color */
+    --color-black-20: #333333;
+    --color-black-30: #4d4d4d;
+    --color-black-80: #cccccc;
+    --color-black-85: #d9d9d9;
+    --color-black-90: #e6e6e6; /* Default background color */
+    --color-blue-50: #1487eb; /* Primary button color */
+    --color-blue-60: #439fef;
+    --color-blue-90: #d0e7fb;
+    --color-yellow-40: #664200;
+    --color-yellow-70: #ffc966;
+    --color-yellow-80: #ffdb99;
+    --color-yellow-90: #ffedcb;
+    --color-red-10: #300603;
+    --color-red-70: #f7776e;
+
+    --bg-color: var(--color-white);
+    --text-color: var(--color-black-05);
+    --secondary-text-color: var(--color-black-30);
+
+    --border-radius: 3px;
+    --border-style: 1px solid;
+    --border-color: var(--color-black-85);
+    --border: var(--border-style) var(--border-color);
+
+    --day-span-bg: var(--color-yellow-90);
+    --today-span-bg: var(--color-yellow-70);
+    --date-with-events-border-color: var(--color-blue-50);
+    --date-with-events-bg: var(--color-blue-90);
+}

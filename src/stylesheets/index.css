@@ -1,0 +1,26 @@
+html[data-theme="dark"] {
+    --bg-color: var(--color-black-05);
+    --text-color: var(--color-white);
+    --border-color: var(--color-black-30);
+    --secondary-text-color: var(--color-black-80);
+    --date-with-events-border-color: var(--color-white);
+    --date-with-events-bg: var(--color-black-20);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-family);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

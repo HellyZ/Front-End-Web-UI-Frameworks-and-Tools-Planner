@@ -1,0 +1,30 @@
+.button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: var(--border-radius);
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    background-color: var(--color-black-90);
+    color: var(--color-black-05);
+    transition: all 0.1s ease-in-out;
+    -webkit-appearance: none;
+    font-family: inherit;
+}
+
+.button:hover {
+    background-color: var(--color-black-85);
+}
+
+.primary {
+    background-color: var(--color-blue-50);
+    color: var(--color-white);
+}
+
+.primary:hover {
+    background-color: var(--color-blue-60);
+}
+
+.buttonGroup > *:not(:last-child) {
+    margin-right: 10px;
+}

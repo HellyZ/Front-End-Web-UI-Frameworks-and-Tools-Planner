@@ -1,0 +1,16 @@
+.sectionHeader {
+    padding: 20px 0;
+}
+
+.sectionTitle {
+    margin: 0;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+
+@media (min-width: 600px) {
+    .sectionTitle {
+        padding-bottom: 0;
+        font-size: 30px;
+    }
+}
